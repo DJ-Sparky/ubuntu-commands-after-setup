@@ -87,3 +87,10 @@ Edit settings - uncheck try first available monitor - set to Jack_Out_Monitor Th
 
 Cream of the crop list - https://thefulldomeblog.com/2020/02/21/nestdrop-presets-collection-cream-of-the-crop/
 
+Youtube-Dl
+sudo apt install curl
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+youtube-dl --ignore-errors --extract-audio --audio-format mp3 https://www.youtube.com/playlist?list=PLNxOe-buLm6cz8UQ-hyG1nm3RTNBUBv3K
+
+
